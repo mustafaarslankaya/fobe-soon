@@ -16,7 +16,7 @@
 
 
     /* Countdown Timer - The Final Countdown */
-	$('#clock').countdown('2023/2/13 08:50:56') /* change here your "countdown to" date */
+	$('#clock').countdown('2025/05/31 19:50:56') /* change here your "countdown to" date */
 	.on('update.countdown', function(event) {
 		var format = '<span class="counter-number">%D<br><span class="timer-text">Gün</span></span><span class="counter-number">%H<br><span class="timer-text">Saat</span></span><span class="counter-number">%M<br><span class="timer-text">Dakika</span></span><span class="counter-number">%S<br><span class="timer-text">Saniye</span></span>';
 		$(this).html(event.strftime(format));

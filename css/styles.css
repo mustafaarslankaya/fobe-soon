@@ -397,7 +397,7 @@ input[type='checkbox'] {
 }
 
 .header .social-container .fa-stack:last-child {
-	margin-right: 0;
+	margin-top: -450px;
 }
 
 .header .fa-stack .fa-stack-1x {
